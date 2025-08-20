@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Army's iPhone Store</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* CSS untuk menyamakan ukuran gambar produk */
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    /* Background biru muda */
+    body {
+      background-color: #d0e7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Army's iPhone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light">Masuk</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-white text-center py-5" style="background-color: #0d6efd;">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Selamat Datang di Army's iPhone Store</h1>
+      <p class="lead">Dapatkan iPhone impianmu dengan harga terbaik dan bergaransi!</p>
+      <a href="#produk" class="btn btn-light">Lihat Produk</a>
+    </div>
+  </section>
+
+  <!-- Promo Alert -->
+  <div class="alert alert-warning text-center mb-0" role="alert">
+    🎉 Promo Merdeka! Diskon hingga 20% untuk pembelian iPhone 13 & 14!
+  </div>
+
+  <!-- Produk iPhone -->
+  <section id="produk" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Produk Unggulan</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Produk 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="/ip13.jpg" class="card-img-top" alt="iPhone 13">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 13</h5>
+              <p class="card-text">Harga: Rp12.500.000</p>
+              <p class="card-text">Stok: Tersedia</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produk 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="/14pro.jpg" class="card-img-top" alt="iPhone 14">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 14 Pro</h5>
+              <p class="card-text">Harga: Rp15.000.000</p>
+              <p class="card-text">Stok: Tersedia</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produk 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="/15pro.jpg" class="card-img-top" alt="iPhone 15 Pro">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 15 Pro</h5>
+              <p class="card-text">Harga: Rp20.000.000</p>
+              <p class="card-text">Stok: Terbatas</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Army's iPhone Store. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
